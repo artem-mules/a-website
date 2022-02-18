@@ -4,6 +4,6 @@ window.addEventListener("load", function () {
 
     allCheckboxItems.forEach(item => {
         currentInputName = item.querySelector('[to-copy]').getAttribute('to-copy');
-        item.querySelector('input').setAttribute('name', currentInputName);
+        item.querySelector('input').setAttribute('value', currentInputName);
     });
 });

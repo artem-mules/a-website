@@ -7,3 +7,5 @@ window.addEventListener("load", function () {
         item.querySelector('input').setAttribute('value', currentInputName);
     });
 });
+
+
